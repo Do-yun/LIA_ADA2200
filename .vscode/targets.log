@@ -1,0 +1,311 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# ����ũ ����Ÿ���̽�, Fri Aug 26 11:59:35 2022
+�� ǥ��
+# ����
+
+# �ڵ�
+<D = $(patsubst %/,%,$(dir $<))
+# �ڵ�
+?F = $(notdir $?)
+# ����ũ����
+MAKEFLAGS = Rrqp
+# �ڵ�
+?D = $(patsubst %/,%,$(dir $?))
+# �ڵ�
+@D = $(patsubst %/,%,$(dir $@))
+# ȯ��
+HOMEDRIVE = C:
+# �ڵ�
+@F = $(notdir $@)
+# �ڵ�
+^D = $(patsubst %/,%,$(dir $^))
+# ����ũ����
+CURDIR := c:/Nordic_SDK/do/nRF5_SDK_15.0.0_a53641a/examples/ble_peripheral/spo2_mod9
+# �⺻��
+SHELL := sh.exe
+# ȯ��
+WINDIR = C:\Windows
+# ȯ��
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"d4733d4bd5138ffb2c9d12a76b2e9102.ko","_translationsConfigFile":"C:\\Users\\BRAIN\\AppData\\Roaming\\Code\\clp\\d4733d4bd5138ffb2c9d12a76b2e9102.ko\\tcf.json","_cacheRoot":"C:\\Users\\BRAIN\\AppData\\Roaming\\Code\\clp\\d4733d4bd5138ffb2c9d12a76b2e9102.ko","_resolvedLanguagePackCoreLocation":"C:\\Users\\BRAIN\\AppData\\Roaming\\Code\\clp\\d4733d4bd5138ffb2c9d12a76b2e9102.ko\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\BRAIN\\AppData\\Roaming\\Code\\clp\\d4733d4bd5138ffb2c9d12a76b2e9102.ko\\corrupted.info","_languagePackSupport":true}
+# ȯ��
+PYCHARM COMMUNITY EDITION = C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;
+# ȯ��
+ONEDRIVE = C:\Users\BRAIN\OneDrive
+# ȯ��
+MSMPI_BIN = C:\Program Files\Microsoft MPI\Bin\
+# ȯ��
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# ����ũ����
+MAKEFILE_LIST := 
+# ȯ��
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# ȯ��
+TMP = C:\Users\BRAIN\AppData\Local\Temp
+# ȯ��
+PROGRAMW6432 = C:\Program Files
+# ȯ��
+PROGRAMDATA = C:\ProgramData
+# ȯ��
+VSCODE_CWD = C:\Users\BRAIN\AppData\Local\Programs\Microsoft VS Code
+# ȯ��
+PATH = C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\MATLAB\R2021a\runtime\win64;C:\Program Files\MATLAB\R2021a\bin;C:\Program Files\PuTTY\;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages\pyqtgraph;C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Windows\System32;C:\Windows\System32\vcpkg;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\BRAIN\Desktop\platform-tools_r33.0.2-windows\adb;"C:\Users\BRAIN\AppData\Local\Microsoft\WindowsApps;C:\Python27;C:\Python27\Scripts;C:\Python27\Lib\site-packages\pyqtgraph";C:\Program Files\JetBrains\PyCharm 2021.3\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin;;C:\Python27;%Python27%;C:\Windows\System32\vcpkg;C:\Users\BRAIN\.dotnet\tools;C:\Users\BRAIN\AppData\Local\Programs\Microsoft VS Code\bin
+# ȯ��
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ȯ��
+ZES_ENABLE_SYSMAN = 1
+# ȯ��
+CHOCOLATEYLASTPATHUPDATE = 132854041871477606
+# ȯ��
+PROCESSOR_ARCHITECTURE = x86
+# ȯ��
+USERPROFILE = C:\Users\BRAIN
+# ȯ��
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# ȯ��
+CMAKE_EXPORT_COMPILE_COMMANDS = ON
+# ȯ��
+ALLUSERSPROFILE = C:\ProgramData
+# ȯ��
+NUMBER_OF_PROCESSORS = 12
+# ȯ��
+ELECTRON_RUN_AS_NODE = 1
+# �⺻��
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �ڵ�
+%F = $(notdir $%)
+# ȯ��
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8072_YADSBIGILEDRPBDH
+# ȯ��
+FLEXLM_TIMEOUT = 300000
+# ȯ��
+COMPUTERNAME = DESKTOP-8J8OFD5
+# ȯ��
+PROGRAMFILES = C:\Program Files (x86)
+# ȯ��
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ȯ��
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ȯ��
+USERNAME = BRAIN
+# ȯ��
+PUBLIC = C:\Users\Public
+# ȯ��
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ȯ��
+HOME = C:\Users\BRAIN
+# ȯ��
+VSCODE_CODE_CACHE_PATH = C:\Users\BRAIN\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# ȯ��
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# ȯ��
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ȯ��
+LOGONSERVER = \\DESKTOP-8J8OFD5
+# ȯ��
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ȯ��
+USERDOMAIN = DESKTOP-8J8OFD5
+# �⺻��
+MAKE = $(MAKE_COMMAND)
+# �⺻��
+MAKECMDGOALS := all
+# �⺻��
+MAKE_VERSION := 3.81
+# ����ũ����
+.DEFAULT_GOAL := 
+# ȯ��
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �ڵ�
+%D = $(patsubst %/,%,$(dir $%))
+# ȯ��
+LOCALAPPDATA = C:\Users\BRAIN\AppData\Local
+# ȯ��
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# �⺻��
+MAKE_COMMAND := make.exe
+# ȯ��
+PROCESSOR_ARCHITEW6432 = AMD64
+# �⺻��
+.VARIABLES := 
+# �ڵ�
+*F = $(notdir $*)
+# ȯ��
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 167 Stepping 1, GenuineIntel
+# ȯ��
+OS = Windows_NT
+# ȯ��
+VSCODE_IPC_HOOK = \\.\pipe\35775719ab5f21e671a494c19cf5b0c3-1.70.2-main-sock
+# ȯ��
+HOMEPATH = \Users\BRAIN
+# ȯ��
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ȯ��
+PROMPT = $P$G
+# ȯ��
+MFLAGS = -Rrqp
+# �ڵ�
+*D = $(patsubst %/,%,$(dir $*))
+# ȯ��
+SYSTEMROOT = C:\Windows
+# �ڵ�
++D = $(patsubst %/,%,$(dir $+))
+# �ڵ�
++F = $(notdir $+)
+# ȯ��
+APPDATA = C:\Users\BRAIN\AppData\Roaming
+# ȯ��
+TEMP = C:\Users\BRAIN\AppData\Local\Temp
+# ȯ��
+COMSPEC = C:\Windows\system32\cmd.exe
+# ȯ��
+VCPKG_ROOT = C:\Windows\System32\vcpkg
+# �⺻��
+MAKEFILES := 
+# �ڵ�
+<F = $(notdir $<)
+# ȯ��
+LC_ALL = C
+# �ڵ�
+^F = $(notdir $^)
+# �⺻��
+SUFFIXES := 
+# ȯ��
+SYSTEMDRIVE = C:
+# ȯ��
+SESSIONNAME = Console
+# ȯ��
+PROCESSOR_REVISION = a701
+# ȯ��
+PYCHARM = C:\Program Files\JetBrains\PyCharm 2021.3\bin;
+# ȯ��
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# ȯ��
+MAKELEVEL := 0
+# ȯ��
+LANG = C
+# ȯ��
+PROCESSOR_LEVEL = 6
+# ȯ��
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# ȯ��
+VSCODE_PID = 8072
+# ȯ��
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-8J8OFD5
+# variable set hash-table stats:
+# Load=94/1024=9%, Rehash=0, Collisions=9/111=8%
+
+# Pattern-specific Variable Values
+
+# ������ ���� ���� ������ �����ϴ�.
+
+# ���丮
+
+# : stat�� �� �� �������ϴ�.
+# C:\Users\BRAIN\Desktop\platform-tools_r33.0.2-windows\adb (Ű C:/Users/BRAIN/Desktop/platform-tools_r33.0.2-windows/adb, ����ð� 1655981697): 28 ����, 0�� �Ұ���.
+# C:\ProgramData\chocolatey\bin (Ű C:/ProgramData/chocolatey/bin, ����ð� 1641104780): 14 ����, 0�� �Ұ���.
+# C:\Python27\Scripts (Ű C:/Python27/Scripts, ����ð� 1655558566): 56 ����, 0�� �Ұ���.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (Ű C:/Windows/System32/WindowsPowerShell/v1.0/, ����ð� 1631080423): 32 ����, 0�� �Ұ���.
+# C:\Windows\System32\Wbem (Ű C:/Windows/System32/Wbem, ����ð� 1660743601): 171 ����, 0�� �Ұ���.
+# . (Ű c:/Nordic_SDK/do/nRF5_SDK_15.0.0_a53641a/examples/ble_peripheral/spo2_mod9, ����ð� 1660376035): 16 ����, 0�� �Ұ���.
+# C:\Program Files\MATLAB\R2021a\bin (Ű C:/Program Files/MATLAB/R2021a/bin, ����ð� 1631087963): 20 ����, 0�� �Ұ���.
+# C:\Program Files\Microsoft MPI\Bin\ (Ű C:/Program Files/Microsoft MPI/Bin/, ����ð� 1641182741): 6 ����, 0�� �Ұ���.
+# C:\Program Files\dotnet\ (Ű C:/Program Files/dotnet/, ����ð� 1649986052): 9 ����, 0�� �Ұ���.
+# C:\Python27\Lib\site-packages\pyqtgraph (Ű C:/Python27/Lib/site-packages/pyqtgraph, ����ð� 1640744506): 69 ����, 0�� �Ұ���.
+# C:\Program Files\JetBrains\PyCharm Community Edition 2021.3\bin (Ű C:/Program Files/JetBrains/PyCharm Community Edition 2021.3/bin, ����ð� 1640349443): 29 ����, 0�� �Ұ���.
+# %Python27%: stat�� �� �� �������ϴ�.
+# C:\Program Files\JetBrains\PyCharm 2021.3\bin: stat�� �� �� �������ϴ�.
+# C:\Windows\System32\OpenSSH\: stat�� �� �� �������ϴ�.
+# C:\Program Files\PuTTY\ (Ű C:/Program Files/PuTTY/, ����ð� 1632472863): 12 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (Ű C:/Program Files (x86)/Common Files/Oracle/Java/javapath, ����ð� 1658327552): 5 ����, 0�� �Ұ���.
+# C:\mingw64\bin (Ű C:/mingw64/bin, ����ð� 1654164930): 58 ����, 0�� �Ұ���.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (Ű C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, ����ð� 1640933148): 4 ����, 0�� �Ұ���.
+# C:\Windows (Ű C:/Windows, ����ð� 1660743640): 117 ����, 0�� �Ұ���.
+# C:\Windows\System32\vcpkg: stat�� �� �� �������ϴ�.
+# C:\Program Files\MATLAB\R2021a\runtime\win64 (Ű C:/Program Files/MATLAB/R2021a/runtime/win64, ����ð� 1631087846): 10 ����, 0�� �Ұ���.
+# C:\Python27\Lib\site-packages\pyqtgraph" (Ű C:/Python27/Lib/site-packages/pyqtgraph", ����ð� 1640744506): �� �� �����ϴ�.
+# C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\ (Ű C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/, ����ð� 1641110212): 403 ����, 0�� �Ұ���.
+# "C:\Users\BRAIN\AppData\Local\Microsoft\WindowsApps: stat�� �� �� �������ϴ�.
+# C:\Program Files\Git\cmd (Ű C:/Program Files/Git/cmd, ����ð� 1640930670): 8 ����, 0�� �Ұ���.
+# C:\Windows\system32 (Ű C:/Windows/system32, ����ð� 1661318296): 3005 ����, 0�� �Ұ���.
+# C:\Python27 (Ű C:/Python27, ����ð� 1640744810): 17 ����, 0�� �Ұ���.
+# C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\bin\ (Ű C:/Program Files (x86)/Nordic Semiconductor/nrf-command-line-tools/bin/, ����ð� 1640922025): 13 ����, 0�� �Ұ���.
+# C:\Users\BRAIN\AppData\Local\Programs\Microsoft VS Code\bin (Ű C:/Users/BRAIN/AppData/Local/Programs/Microsoft VS Code/bin, ����ð� 1660808609): 4 ����, 0�� �Ұ���.
+# C:\Program Files\CMake\bin (Ű C:/Program Files/CMake/bin, ����ð� 1654170863): 7 ����, 0�� �Ұ���.
+# C:\Users\BRAIN\.dotnet\tools: stat�� �� �� �������ϴ�.
+# C:\Program Files (x86)\GnuWin32\bin (Ű C:/Program Files (x86)/GnuWin32/bin, ����ð� 1654337116): 5 ����, 0�� �Ұ���.
+
+# 4118 ����, 0�� impossibilities in 33 directories.
+
+# Implicit Rules
+
+# ������ ��Ģ ����.
+
+# ����
+
+# Ÿ���� �ƴ�:
+all:
+#  ������ Ÿ��.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.DEFAULT:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ſ� ������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Ÿ���� �ƴ�:
+.SUFFIXES:
+#  ������ ��Ģ Ž���� �Ϸ���� �ʾҽ��ϴ�.
+#  ���� �ð��� ���� �˻���� �ʾ���.
+#  ������ ���ŵ��� �ʾҽ��ϴ�.
+
+# Ÿ���� �ƴ�:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  ������ ��Ģ Ž���� �Ϸ�Ǿ����ϴ�.
+#  ������ �������� �ʽ��ϴ�.
+#  ������ ���ŵǾ����ϴ�.
+#  ���ſ� ������.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Ž�� ���
+
+# `vpath' Ž�� ��ΰ� ����.
+
+# �Ϲ����� (`VPATH' ����) Ž�� ��ΰ� ����.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# ����ũ ����Ÿ ���̽� ��ħ, Fri Aug 26 11:59:35 2022
+����
+ 
+make.exe: *** Ÿ�� `all'�� ���� ��Ģ�� ����.  ����.
+

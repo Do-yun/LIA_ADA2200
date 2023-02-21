@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Nordic_SDK/do/nRF5_SDK_15.0.0_a53641a/examples/ble_peripheral/spo2_mod9'
+make.exe: Leaving directory `c:/Nordic_SDK/do/nRF5_SDK_15.0.0_a53641a/examples/ble_peripheral/spo2_mod9'
+ 
+make.exe: *** Ÿ���� �������� �ʾҰ� ����ũ������ �����ϴ�.  ����.
+
